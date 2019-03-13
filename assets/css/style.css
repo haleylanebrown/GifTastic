@@ -20,6 +20,7 @@ header {
     background: rgba(255, 255, 255, 0.4);
     padding: 20px;
     width: 90%;
+    margin-bottom: 60px;
 }
 
 .container a {
@@ -34,7 +35,7 @@ header {
 #emotion-title {
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Luckiest Guy', cursive;
     margin-bottom: 0px;
     width: 100%;
@@ -56,8 +57,9 @@ header {
 }
 
 #emotion-form {
-    width: 80%;
+    width: 100%;
     text-align: center;
+    align-content: center;
 }
 
 .col-md-8 {
