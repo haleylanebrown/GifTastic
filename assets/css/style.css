@@ -1,0 +1,108 @@
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/109/548/original/free-smiley-face-pattern-vector.png");
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+header {
+    color: white;
+    font-size: 60px;
+    text-shadow: darkcyan 4px 4px 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.container {
+    background: rgb(255, 254, 254);
+    background: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    width: 90%;
+}
+
+.container a {
+    color: #fff;
+}
+
+#emotion-input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#emotion-title {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+    font-family: 'Luckiest Guy', cursive;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+#button-title, #gif-title {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#gif-title, #button-title {
+    text-align: center;
+}
+
+#gifs {
+    text-align: center;
+}
+
+#emotion-form {
+    width: 80%;
+    text-align: center;
+}
+
+.col-md-8 {
+    float: left;
+    text-align: center;
+}
+
+.gifDiv {
+    display: inline-block;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+button, #add-emotion {
+    font-size: 14px;
+    margin: 3px;
+    border-radius: 10%;
+}
+
+button:hover, #add-emotion:hover {
+    background: darkcyan;
+    color: white;
+}
+
+#emotion-buttons {
+    margin-bottom: 20px;
+}
+
+/* Media Queries 
+    // 980px
+    */
+@media screen and (max-width: 980px) {
+
+}
+
+ /* 768px */
+ @media screen and (max-width: 768px) {
+
+ }
+
+ /* 640px */
+ @media screen and (max-width: 640px) {
+
+ }
