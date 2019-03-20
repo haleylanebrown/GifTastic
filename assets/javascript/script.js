@@ -18,7 +18,7 @@
             $("#gifs").empty();
 
             var button = $(this).attr("data-button")
-            var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + button + "&api_key=AiDMA9GHAOH269BuDaSgcG58z8UmYTTU&limit=10"
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + button + "&api_key=AiDMA9GHAOH269BuDaSgcG58z8UmYTTU&limit=10"
             console.log(this);
             $.ajax({
                 url: queryURL,
